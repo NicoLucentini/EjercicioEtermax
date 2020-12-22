@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerciciosEtermax", "EjerciciosEtermax\EjerciciosEtermax.csproj", "{5099FC8E-FA30-42BC-8CC5-CC1DADAEE72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerciciosEtermaxTests", "EjerciciosEtermaxTests\EjerciciosEtermaxTests.csproj", "{52DF5742-594C-4F6A-8CCB-2E53CCD093ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5099FC8E-FA30-42BC-8CC5-CC1DADAEE72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5099FC8E-FA30-42BC-8CC5-CC1DADAEE72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5099FC8E-FA30-42BC-8CC5-CC1DADAEE72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5099FC8E-FA30-42BC-8CC5-CC1DADAEE72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DF5742-594C-4F6A-8CCB-2E53CCD093ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DF5742-594C-4F6A-8CCB-2E53CCD093ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DF5742-594C-4F6A-8CCB-2E53CCD093ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DF5742-594C-4F6A-8CCB-2E53CCD093ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05EF7907-4011-4B88-A023-B5E05D4B1CF3}
+	EndGlobalSection
+EndGlobal
