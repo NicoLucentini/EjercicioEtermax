@@ -27,6 +27,9 @@ namespace EjerciciosEtermax
             List<char> arr1 = needle.ToCharArray().ToList();
             List<char> arr2 = haystack.ToCharArray().ToList();
 
+            List<char> aux2 = new List<char>();
+            aux2.AddRange(arr1);
+
             int aux = arr1.Count;
          
             List<int> index = new List<int>();
@@ -35,20 +38,23 @@ namespace EjerciciosEtermax
             for (int i = 0; i < arr2.Count; i++) {
 
                bool hayLetra = false;
-               for(int j = 0; j < arr1.Count; j++)
+               for(int j = 0; j < aux2.Count; j++)
                {
-                    if (arr2[i] == arr1[j])
+                    if (arr2[i] == aux2[j])
                     {
                         hayLetra = true;
                         index.Add(i);
-                       // arr1.RemoveAt(j);
+                        aux2.RemoveAt(j);
                         break;
                     }
                }
                 if (index.Count != 0 && !hayLetra)
+                {
                     index.Clear();
+                    aux2.AddRange(arr1);
+                }
 
-               if (index.Count == aux)
+                if (index.Count == aux)
                     break;
             }
 
