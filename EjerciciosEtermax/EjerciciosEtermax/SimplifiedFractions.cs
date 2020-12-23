@@ -48,7 +48,7 @@ namespace EjerciciosEtermax
             if (first % second == 0)
                 return (first / second).ToString();
 
-            int divisor =  first > second ? first : second;
+            int divisor =  first < second ? first : second;
 
             while (divisor >= 2) {
 
@@ -56,7 +56,7 @@ namespace EjerciciosEtermax
                 {
                     first /= divisor;
                     second /= divisor;
-                    divisor = first > second ? first : second;
+                    divisor = first < second ? first : second;
                 }
                 else {
                     divisor--;
