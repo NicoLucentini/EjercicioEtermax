@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnagramTests.cs" />
+    <Compile Include="ReplaceLettersTest.cs" />
     <Compile Include="SimplifiedFractionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
